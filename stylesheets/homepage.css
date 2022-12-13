@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+}
+#page-title {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.6px;
+    word-spacing: 1.6px;
+    text-align: center;
+}
+.container {
+    border: 1px solid black;
+    display: flex;
+    padding: 3px;
+}
+.home {
+    display: flex;
+    padding: 5px;
+    border: 1px solid red;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+.images {
+    padding: 5px;
+    border: 1px solid greenyellow;
+    width: 300px;
+    height: auto;
+}
