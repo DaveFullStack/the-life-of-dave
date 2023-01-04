@@ -7,6 +7,21 @@ html {
     word-spacing: 1.6px;
     text-align: center;
 }
+.nav-bar {
+    display: flex;
+    margin: auto;
+    width: 300px;
+    height: auto;
+}
+#nav-list {
+    display: flex;
+    padding: 1em;
+    border: 1px solid crimson;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+}
 .container {
     border: 1px solid black;
     display: flex;
@@ -19,11 +34,12 @@ html {
     flex-direction: column;
     text-align: center;
     margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .images {
     padding: 5px;
     border: 1px solid greenyellow;
-    width: 300px;
+    width: 350px;
     height: auto;
 }
